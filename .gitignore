@@ -37,3 +37,8 @@
 *.exe
 *.out
 *.app
+
+# MiraYay
+.vs/*
+build/*
+out/*
