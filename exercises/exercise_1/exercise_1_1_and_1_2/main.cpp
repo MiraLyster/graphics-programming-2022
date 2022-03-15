@@ -3,6 +3,7 @@
 
 #include <iostream>
 
+void processInput(GLFWwindow* window);
 
 int main(){
 	//The GLW window is instantiated
@@ -35,6 +36,7 @@ int main(){
 		glfwTerminate();
 		return -1;
 	}
+	glfwMakeContextCurrent(window);
 
 	/*GLAD manages function pointers for OpenGL and we want to initialize GLAD before
 	we CALL any OpenGL function*/
@@ -101,22 +103,35 @@ int main(){
 	and show it as output to the screen.*/
 
 	while (!glfwWindowShouldClose(window)) {
+		//We call this every iteration of the render loop and therefore it has to be here..
+		processInput(window); 
+		
+		/*Rendering commands can be put here in the render loop as we want it to execute each frame/iteration
+		At the start of frame we want to clear the screen. Otherwise we would see the results from the 
+		previous frame. This is done by using glClear where we pass in buffer bits to sepcify
+		which buffer we would like to clear.
+		We also specify the color to clear the screen with using glClearColor*/
+		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+		glClear(GL_COLOR_BUFFER_BIT);
+
+		//Check and call events and swap the buffers
 		glfwSwapBuffers(window);
 		glfwPollEvents();
 	}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+	/*As soon as we exit the render loop we would like to properly clean/delete all of GLFW's resources
+	that were allocated. We do this by this function that is called at the end of the main function.
+	This will clean up all the resources and properly exit the application.*/
+	glfwTerminate();
 	return 0;
+}
+
+/*Process all input. 
+windowShouldClose: is set to true, and when escape is pressed the program will close.
+This gives us an easy way to check for specific key presses and react accordinly every frame.
+An iteration of the render loop is more commonly called a frame.*/
+void processInput(GLFWwindow* window) {
+	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
+		glfwSetWindowShouldClose(window, true);
 }
