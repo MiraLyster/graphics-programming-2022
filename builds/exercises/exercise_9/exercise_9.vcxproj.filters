@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\objloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shaders\bloom.frag" />
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shaders\blur.frag" />
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shaders\celshading.frag" />
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shaders\compose.frag" />
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shaders\copy.frag" />
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shaders\deferred_shading.frag" />
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shaders\deferred_shading.vert" />
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shaders\fullscreen.vert" />
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shaders\lighting.frag" />
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shaders\lighting.vert" />
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shaders\outline.frag" />
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shaders\shadowmap.frag" />
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shaders\shadowmap.vert" />
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shaders\skybox.frag" />
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_9\shaders\skybox.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C987AA87-BA54-35A4-955E-B69B20A9189C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{005E38E3-D51E-3EB1-81D2-8C2B08D796C6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

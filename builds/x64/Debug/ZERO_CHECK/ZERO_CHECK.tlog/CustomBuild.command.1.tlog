@@ -1,0 +1,10 @@
+^C:\USERS\LAUSTSEN\DESKTOP\GRAPHICS2022\BUILDS\CMAKEFILES\B516C7EDE175D50D9D3A2EB89296B991\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022 -BC:/Users/Laustsen/Desktop/Graphics2022/builds --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Laustsen/Desktop/Graphics2022/builds/ITU-graphics-programming.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

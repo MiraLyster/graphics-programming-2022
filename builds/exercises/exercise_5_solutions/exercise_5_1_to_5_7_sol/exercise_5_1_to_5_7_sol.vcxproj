@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9C07B6C9-6527-3498-AC4D-4EE45382FCEC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>exercise_5_1_to_5_7_sol</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">exercise_5_1_to_5_7_sol.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">exercise_5_1_to_5_7_sol</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">exercise_5_1_to_5_7_sol.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">exercise_5_1_to_5_7_sol</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">exercise_5_1_to_5_7_sol.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">exercise_5_1_to_5_7_sol</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">exercise_5_1_to_5_7_sol.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">exercise_5_1_to_5_7_sol</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glad\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glfw\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\imgui\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glm;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\STBImage;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glad\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glfw\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\imgui\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glm;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\STBImage;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glad\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glfw\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\imgui\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glm;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\STBImage;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying shaders</Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/shaders C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/shaders
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\common\third-party\glad\Debug\glad.lib;..\..\..\common\third-party\glfw\src\Debug\glfw3.lib;..\..\..\common\third-party\imgui\Debug\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/Debug/exercise_5_1_to_5_7_sol.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/Debug/exercise_5_1_to_5_7_sol.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glad\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glfw\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\imgui\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glm;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\STBImage;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glad\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glfw\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\imgui\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glm;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\STBImage;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glad\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glfw\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\imgui\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glm;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\STBImage;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying shaders</Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/shaders C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/shaders
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\common\third-party\glad\Release\glad.lib;..\..\..\common\third-party\glfw\src\Release\glfw3.lib;..\..\..\common\third-party\imgui\Release\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/Release/exercise_5_1_to_5_7_sol.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/Release/exercise_5_1_to_5_7_sol.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glad\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glfw\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\imgui\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glm;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\STBImage;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glad\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glfw\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\imgui\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glm;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\STBImage;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glad\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glfw\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\imgui\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glm;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\STBImage;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying shaders</Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/shaders C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/shaders
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\common\third-party\glad\MinSizeRel\glad.lib;..\..\..\common\third-party\glfw\src\MinSizeRel\glfw3.lib;..\..\..\common\third-party\imgui\MinSizeRel\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/MinSizeRel/exercise_5_1_to_5_7_sol.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/MinSizeRel/exercise_5_1_to_5_7_sol.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glad\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glfw\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\imgui\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glm;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\STBImage;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glad\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glfw\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\imgui\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glm;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\STBImage;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glad\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glfw\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\imgui\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glm;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\STBImage;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp\include;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\assimp;C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying shaders</Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/shaders C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/shaders
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\common\third-party\glad\RelWithDebInfo\glad.lib;..\..\..\common\third-party\glfw\src\RelWithDebInfo\glfw3.lib;..\..\..\common\third-party\imgui\RelWithDebInfo\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/RelWithDebInfo/exercise_5_1_to_5_7_sol.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/RelWithDebInfo/exercise_5_1_to_5_7_sol.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022 -BC:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds --check-stamp-file C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022 -BC:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds --check-stamp-file C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022 -BC:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds --check-stamp-file C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022 -BC:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds --check-stamp-file C:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022/builds/exercises/exercise_5_solutions/exercise_5_1_to_5_7_sol/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\camera.h" />
+    <ClCompile Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\main.cpp" />
+    <ClInclude Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\mesh.h" />
+    <ClInclude Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\model.h" />
+    <ClInclude Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\objloader.h" />
+    <ClInclude Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\shader.h" />
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\shaders\gouraud_shading.frag">
+    </None>
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\shaders\gouraud_shading.vert">
+    </None>
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\shaders\phong_shading.frag">
+    </None>
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_5_solutions\exercise_5_1_to_5_7_sol\shaders\phong_shading.vert">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\ZERO_CHECK.vcxproj">
+      <Project>{7950E8DA-A091-3DA0-9094-F3B3D5B73056}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\common\third-party\glad\glad.vcxproj">
+      <Project>{ADFE40E3-2E1E-377A-8534-6C104D6DCEDC}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\common\third-party\glfw\src\glfw.vcxproj">
+      <Project>{7BDE95D3-4BDC-38E2-9A9F-A6C7420E839F}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\common\third-party\imgui\imgui.vcxproj">
+      <Project>{0AFFBAA9-B0A8-3A5B-A265-48773859BEA9}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

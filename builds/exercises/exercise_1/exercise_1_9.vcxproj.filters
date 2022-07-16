@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_1\exercise_1_9\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\exercises\exercise_1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{005E38E3-D51E-3EB1-81D2-8C2B08D796C6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

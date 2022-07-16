@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\CMakeFiles\ebd097abcbb18ec23bde6e62f08e9db2\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\common\third-party\glfw\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\common\third-party\glfw\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1EADD257-8230-3390-B6A5-E3C17ED24A93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

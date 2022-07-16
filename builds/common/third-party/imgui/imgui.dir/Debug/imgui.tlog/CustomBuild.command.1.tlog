@@ -1,0 +1,10 @@
+^C:\USERS\LAUSTSEN\DESKTOP\GRAPHICS2022\GRAPHICS-PROGRAMMING-2022\COMMON\THIRD-PARTY\IMGUI\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/Laustsen/Desktop/Graphics2022/graphics-programming-2022 -BC:/Users/Laustsen/Desktop/Graphics2022/builds --check-stamp-file C:/Users/Laustsen/Desktop/Graphics2022/builds/common/third-party/imgui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

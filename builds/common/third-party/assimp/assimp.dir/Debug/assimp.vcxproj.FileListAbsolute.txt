@@ -1,0 +1,2 @@
+C:\Users\Laustsen\Desktop\Graphics2022\builds\common\third-party\assimp\Debug\assimp.pdb
+C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\common\third-party\assimp\assimp.dir\Debug\assimp.pdb

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\CMakeFiles\3e1a8eff3f1eece5c06df4de147e5d75\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1EADD257-8230-3390-B6A5-E3C17ED24A93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

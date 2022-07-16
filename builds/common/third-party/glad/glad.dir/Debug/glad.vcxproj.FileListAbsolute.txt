@@ -1,0 +1,2 @@
+C:\Users\Laustsen\Desktop\Graphics2022\builds\common\third-party\glad\Debug\glad.pdb
+C:\Users\Laustsen\Desktop\Graphics2022\graphics-programming-2022\builds\common\third-party\glad\glad.dir\Debug\glad.pdb
